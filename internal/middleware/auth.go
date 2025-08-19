@@ -10,7 +10,7 @@ import (
 )
 
 type JWTAuth struct { Secret string }
-
+ 
 type Claims struct {
 	UserID string `json:"uid"`
 	Role   string `json:"role"`
